@@ -26,13 +26,13 @@ Total: **30,011** lines of code across **97** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **2.3 / 10**
+Overall score: **2.8 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/27 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (-1/10) — No tokens found
 - **Dangerous-Workflow** (-1/10) — no workflows found
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 0 | 1 | 0 | 0 | 6 |
-| last60d | 2026-08-06 | 1 | 0 | 1 | 0 | 0 | 14 |
-| 90d | 2026-07-07 | 1 | 0 | 1 | 0 | 0 | 14 |
-| last180d | 2026-04-08 | 1 | 0 | 1 | 0 | 0 | 32 |
-| 360d | 2025-10-10 | 1 | 2 | 2 | 2 | 0 | 48 |
-| last720d | 2024-10-15 | 1 | 4 | 6 | 3 | 9 | 127 |
+| 30d | 2026-09-06 | 0 | 0 | 1 | 0 | 0 | 6 |
+| last60d | 2026-08-07 | 1 | 0 | 1 | 0 | 0 | 14 |
+| 90d | 2026-07-08 | 1 | 0 | 1 | 0 | 0 | 14 |
+| last180d | 2026-04-09 | 1 | 0 | 1 | 0 | 0 | 32 |
+| 360d | 2025-10-11 | 1 | 2 | 2 | 2 | 0 | 48 |
+| last720d | 2024-10-16 | 1 | 4 | 6 | 3 | 9 | 127 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for siege lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T06:53:15Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T07:44:49Z._
