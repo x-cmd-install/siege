@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,215 · **Forks**: 398 · **Open issues**: 170 · **Contributors**: 29
+- **Stars**: 6,216 · **Forks**: 398 · **Open issues**: 170 · **Contributors**: 29
 
 ## Totals (cumulative)
 
@@ -57,18 +57,35 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 1 | 0 | 0 | 6 |
-| last60d | 2026-08-23 | 0 | 0 | 1 | 0 | 0 | 6 |
-| 90d | 2026-07-24 | 1 | 0 | 1 | 0 | 0 | 14 |
-| last180d | 2026-04-25 | 1 | 0 | 1 | 0 | 0 | 32 |
-| 360d | 2025-10-27 | 1 | 2 | 2 | 1 | 0 | 48 |
-| last720d | 2024-11-01 | 1 | 4 | 6 | 3 | 9 | 127 |
+| 30d | 2026-09-23 | 0 | 0 | 1 | 0 | 0 | 6 |
+| last60d | 2026-08-24 | 0 | 0 | 1 | 0 | 0 | 6 |
+| 90d | 2026-07-25 | 1 | 0 | 1 | 0 | 0 | 14 |
+| last180d | 2026-04-26 | 1 | 0 | 1 | 0 | 0 | 32 |
+| 360d | 2025-10-28 | 1 | 2 | 2 | 1 | 0 | 48 |
+| last720d | 2024-11-02 | 1 | 4 | 6 | 3 | 9 | 127 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [siege-4.2.0.tar.gz](https://github.com/JoeDog/siege/releases/download/v.2.4.0/siege-4.2.0.tar.gz) | 530.7 KiB | `native/unknown` |
+
+## Distribution status
+
+Reported by **105** distros on [repology.org](https://repology.org/project/siege). **11** are ✅ on the latest upstream release, **70** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `4.1.7` | ⚠️ outdated |
+| Debian 14 | `4.1.7` | ⚠️ outdated |
+| Debian 13 | `4.1.6` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.1.6` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.0.7` | ⚠️ outdated |
+| Arch | `4.2.0` | ✅ latest |
+| Homebrew | `4.2.0` | ✅ latest |
+| Fedora rawhide | `4.1.7` | ⚠️ outdated |
+| Nix unstable | `4.2.0` | ✅ latest |
+| openSUSE Tumbleweed | `4.2.0` | ✅ latest |
 
 ## Improve this data
 
@@ -79,4 +96,4 @@ Install metadata for siege lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T06:07:44Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:57:09Z._
