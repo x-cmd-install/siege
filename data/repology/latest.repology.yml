@@ -1,11 +1,115 @@
-- repo: parrot
-  subrepo: parrot/main
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: siege
   binnames:
     - siege
   visiblename: siege
   version: 4.1.6
   origversion: 4.1.6-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.0.7
+  origversion: 4.0.7-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: raspbian_stable
+  subrepo: main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.6
+  origversion: 4.1.6-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: raspbian_testing
+  subrepo: main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.7
+  origversion: 4.1.7-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: gnuguix
+  srcname: siege
+  binname: siege
+  visiblename: siege
+  version: 4.1.7
+  origversion: null
+  status: outdated
+  summary: HTTP/FTP load tester and benchmarking utility
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: siege
+  binname: siege
+  visiblename: siege
+  version: 3.1.4
+  origversion: null
+  status: outdated
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: siege
+  binname: siege
+  visiblename: siege
+  version: 3.1.4
+  origversion: null
+  status: outdated
+- repo: homebrew
+  srcname: siege
+  visiblename: siege
+  version: 4.2.0
+  origversion: null
+  status: newest
+  summary: HTTP regression testing and benchmarking utility
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: siege
+  binname: siege
+  visiblename: siege
+  version: "2.70"
+  origversion: null
+  status: legacy
+- repo: kali_rolling
+  subrepo: main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.7
+  origversion: 4.1.7-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.0.7
+  origversion: 4.0.7-1
   status: outdated
   maintainers:
     - jmaslibre@debian.org
@@ -219,19 +323,6 @@
   summary: Siege is an http load testing and benchmarking utility.
   licenses:
     - GPL-3
-- repo: ubuntu_16_04
-  subrepo: xenial/main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 3.0.8
-  origversion: 3.0.8-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
 - repo: debian_11
   subrepo: bullseye/main
   srcname: siege
@@ -564,71 +655,6 @@
     - GPL-3
   categories:
     - app-benchmarks
-- repo: gnuguix
-  srcname: siege
-  binname: siege
-  visiblename: siege
-  version: 4.1.7
-  origversion: null
-  status: outdated
-  summary: HTTP/FTP load tester and benchmarking utility
-- repo: homebrew
-  srcname: siege
-  visiblename: siege
-  version: 4.2.0
-  origversion: null
-  status: newest
-  summary: HTTP regression testing and benchmarking utility
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: siege
-  binname: siege
-  visiblename: siege
-  version: "2.70"
-  origversion: null
-  status: legacy
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: siege
-  binname: siege
-  visiblename: siege
-  version: 3.1.4
-  origversion: null
-  status: outdated
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: siege
-  binname: siege
-  visiblename: siege
-  version: 3.1.4
-  origversion: null
-  status: outdated
-- repo: kali_rolling
-  subrepo: main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.7
-  origversion: 4.1.7-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: ubuntu_18_04
-  subrepo: bionic/main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.0.4
-  origversion: 4.0.4-1build1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - web
 - repo: macports
   srcname: www/siege
   binname: siege
@@ -790,9 +816,9 @@
   srcname: benchmarks/siege
   binname: siege
   visiblename: benchmarks/siege
-  version: 4.1.7
-  origversion: 4.1.7p0
-  status: outdated
+  version: 4.2.0
+  origversion: null
+  status: newest
   summary: multi-threaded HTTP benchmark and regression tester
   maintainers:
     - ports@openbsd.org
@@ -874,6 +900,19 @@
   categories:
     - web
 - repo: parrot
+  subrepo: parrot/main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.6
+  origversion: 4.1.6-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: parrot
   subrepo: parrot-updates/main
   srcname: siege
   binnames:
@@ -941,71 +980,6 @@
     - jmaslibre@debian.org
   categories:
     - web
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.0.7
-  origversion: 4.0.7-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.6
-  origversion: 4.1.6-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.0.7
-  origversion: 4.0.7-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: raspbian_stable
-  subrepo: main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.6
-  origversion: 4.1.6-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: raspbian_testing
-  subrepo: main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.7
-  origversion: 4.1.7-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: siege
@@ -1061,6 +1035,32 @@
   status: outdated
   maintainers:
     - jmaslibre@debian.org
+  categories:
+    - web
+- repo: ubuntu_16_04
+  subrepo: xenial/main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 3.0.8
+  origversion: 3.0.8-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: ubuntu_18_04
+  subrepo: bionic/main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.0.4
+  origversion: 4.0.4-1build1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - web
 - repo: ubuntu_20_04
