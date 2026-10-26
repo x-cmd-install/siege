@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,216 · **Forks**: 398 · **Open issues**: 170 · **Contributors**: 29
+- **Stars**: 6,217 · **Forks**: 398 · **Open issues**: 170 · **Contributors**: 29
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-26 | 0 | 0 | 1 | 0 | 0 | 6 |
-| 90d | 2026-07-27 | 1 | 0 | 1 | 0 | 0 | 14 |
-| last180d | 2026-04-28 | 1 | 0 | 1 | 0 | 0 | 24 |
-| 360d | 2025-10-30 | 1 | 2 | 2 | 1 | 0 | 48 |
-| last720d | 2024-11-04 | 1 | 4 | 6 | 3 | 9 | 127 |
+| 30d | 2026-09-26 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-08-27 | 0 | 0 | 1 | 0 | 0 | 6 |
+| 90d | 2026-07-28 | 1 | 0 | 1 | 0 | 0 | 14 |
+| last180d | 2026-04-29 | 1 | 0 | 1 | 0 | 0 | 24 |
+| 360d | 2025-10-31 | 1 | 2 | 2 | 1 | 0 | 48 |
+| last720d | 2024-11-05 | 1 | 4 | 6 | 3 | 9 | 127 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for siege lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:47:12Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:59:16Z._
