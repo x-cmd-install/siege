@@ -14,15 +14,15 @@ x install siege
 
 ## Code insight
 
-Total: **30,011** lines of code across **97** files in the top 5 languages.
+Total: **23,104** lines of code across **97** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 12,202 | 2,264 | 1,790 | 39 |
-| Sh | 8,981 | 2,200 | 1,312 | 6 |
-| M4 | 6,866 | 1,551 | 756 | 6 |
-| CHeader | 1,363 | 1,143 | 341 | 42 |
+| C | 12,308 | 2,279 | 1,807 | 39 |
+| Sh | 8,778 | 2,183 | 1,324 | 6 |
+| CHeader | 1,384 | 1,143 | 346 | 42 |
 | Autoconf | 229 | 672 | 123 | 4 |
+| Php | 181 | 0 | 14 | 6 |
 
 ## OpenSSF Scorecard
 
@@ -41,38 +41,38 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v.2.4.0` (2026-08-18)
-- **Last commit**: 2026-09-30
+- **Latest**: `4.2.2` (2026-10-27)
+- **Last commit**: 2026-10-27
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 6,217 · **Forks**: 398 · **Open issues**: 170 · **Contributors**: 29
+- **Stars**: 6,217 · **Forks**: 398 · **Open issues**: 170 · **Contributors**: 30
 
 ## Totals (cumulative)
 
-- **Releases**: 1 · **Merged PRs**: 38 · **Open PRs**: 32 · **Closed issues**: 55 · **Open issues**: 115 · **Commits**: 738
+- **Releases**: 2 · **Merged PRs**: 38 · **Open PRs**: 32 · **Closed issues**: 55 · **Open issues**: 115 · **Commits**: 751
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-28 | 0 | 0 | 1 | 0 | 0 | 6 |
-| 90d | 2026-07-29 | 1 | 0 | 1 | 0 | 0 | 14 |
-| last180d | 2026-04-30 | 1 | 0 | 1 | 0 | 0 | 24 |
-| 360d | 2025-11-01 | 1 | 2 | 2 | 1 | 0 | 48 |
-| last720d | 2024-11-06 | 1 | 4 | 6 | 3 | 9 | 127 |
+| 30d | 2026-09-28 | 1 | 0 | 1 | 0 | 0 | 11 |
+| last60d | 2026-08-29 | 1 | 0 | 1 | 0 | 0 | 18 |
+| 90d | 2026-07-30 | 2 | 0 | 1 | 0 | 0 | 26 |
+| last180d | 2026-05-01 | 2 | 0 | 1 | 0 | 0 | 36 |
+| 360d | 2025-11-02 | 2 | 2 | 2 | 1 | 0 | 60 |
+| last720d | 2024-11-07 | 2 | 4 | 6 | 3 | 9 | 140 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [siege-4.2.0.tar.gz](https://github.com/JoeDog/siege/releases/download/v.2.4.0/siege-4.2.0.tar.gz) | 530.7 KiB | `native/unknown` |
+| [siege-4.2.2.tar.gz](https://github.com/JoeDog/siege/releases/download/4.2.2/siege-4.2.2.tar.gz) | 532.4 KiB | `native/unknown` |
 
 ## Distribution status
 
-Reported by **105** distros on [repology.org](https://repology.org/project/siege). **12** are ✅ on the latest upstream release, **69** are ⚠️ on an older version.
+Reported by **105** distros on [repology.org](https://repology.org/project/siege). **1** are ✅ on the latest upstream release, **80** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -81,11 +81,11 @@ Reported by **105** distros on [repology.org](https://repology.org/project/siege
 | Debian 13 | `4.1.6` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.1.6` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.0.7` | ⚠️ outdated |
-| Arch | `4.2.0` | ✅ latest |
-| Homebrew | `4.2.0` | ✅ latest |
+| Arch | `4.2.0` | ⚠️ outdated |
+| Homebrew | `4.2.2` | ✅ latest |
 | Fedora rawhide | `4.1.7` | ⚠️ outdated |
-| Nix unstable | `4.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `4.2.0` | ✅ latest |
+| Nix unstable | `4.2.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `4.2.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -96,4 +96,4 @@ Install metadata for siege lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T06:20:50Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T07:03:23Z._

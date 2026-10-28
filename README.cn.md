@@ -14,15 +14,15 @@ x install siege
 
 ## 代码洞察
 
-合计: **30,011** 行代码（覆盖前 5 种语言、共 **97** 个文件）。
+合计: **23,104** 行代码（覆盖前 5 种语言、共 **97** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 12,202 | 2,264 | 1,790 | 39 |
-| Sh | 8,981 | 2,200 | 1,312 | 6 |
-| M4 | 6,866 | 1,551 | 756 | 6 |
-| CHeader | 1,363 | 1,143 | 341 | 42 |
+| C | 12,308 | 2,279 | 1,807 | 39 |
+| Sh | 8,778 | 2,183 | 1,324 | 6 |
+| CHeader | 1,384 | 1,143 | 346 | 42 |
 | Autoconf | 229 | 672 | 123 | 4 |
+| Php | 181 | 0 | 14 | 6 |
 
 ## OpenSSF Scorecard 评分
 
@@ -41,38 +41,38 @@ x install siege
 
 ## 发布
 
-- **最新版本**: `v.2.4.0` (2026-08-18)
-- **最近提交**: 2026-09-30
+- **最新版本**: `4.2.2` (2026-10-27)
+- **最近提交**: 2026-10-27
 - **Release 含资产**: 1 个
 
 ## 流行度
 
-- **Star**: 6,217 · **Fork**: 398 · **开放 issue**: 170 · **贡献者**: 29
+- **Star**: 6,217 · **Fork**: 398 · **开放 issue**: 170 · **贡献者**: 30
 
 ## 累计统计
 
-- **发布数**: 1 · **已合并 PR**: 38 · **开放 PR**: 32 · **已关闭 issue**: 55 · **开放 issue**: 115 · **提交数**: 738
+- **发布数**: 2 · **已合并 PR**: 38 · **开放 PR**: 32 · **已关闭 issue**: 55 · **开放 issue**: 115 · **提交数**: 751
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-28 | 0 | 0 | 1 | 0 | 0 | 6 |
-| 90d | 2026-07-29 | 1 | 0 | 1 | 0 | 0 | 14 |
-| last180d | 2026-04-30 | 1 | 0 | 1 | 0 | 0 | 24 |
-| 360d | 2025-11-01 | 1 | 2 | 2 | 1 | 0 | 48 |
-| last720d | 2024-11-06 | 1 | 4 | 6 | 3 | 9 | 127 |
+| 30d | 2026-09-28 | 1 | 0 | 1 | 0 | 0 | 11 |
+| last60d | 2026-08-29 | 1 | 0 | 1 | 0 | 0 | 18 |
+| 90d | 2026-07-30 | 2 | 0 | 1 | 0 | 0 | 26 |
+| last180d | 2026-05-01 | 2 | 0 | 1 | 0 | 0 | 36 |
+| 360d | 2025-11-02 | 2 | 2 | 2 | 1 | 0 | 60 |
+| last720d | 2024-11-07 | 2 | 4 | 6 | 3 | 9 | 140 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [siege-4.2.0.tar.gz](https://github.com/JoeDog/siege/releases/download/v.2.4.0/siege-4.2.0.tar.gz) | 530.7 KiB | `native/unknown` |
+| [siege-4.2.2.tar.gz](https://github.com/JoeDog/siege/releases/download/4.2.2/siege-4.2.2.tar.gz) | 532.4 KiB | `native/unknown` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/siege) 上共有 **105** 个发行版报告此项目。**12** 个 ✅ 已是最新上游版本，**69** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/siege) 上共有 **105** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**80** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -81,11 +81,11 @@ x install siege
 | Debian 13 | `4.1.6` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.1.6` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.0.7` | ⚠️ outdated |
-| Arch | `4.2.0` | ✅ latest |
-| Homebrew | `4.2.0` | ✅ latest |
+| Arch | `4.2.0` | ⚠️ outdated |
+| Homebrew | `4.2.2` | ✅ latest |
 | Fedora rawhide | `4.1.7` | ⚠️ outdated |
-| Nix unstable | `4.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `4.2.0` | ✅ latest |
+| Nix unstable | `4.2.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `4.2.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -96,4 +96,4 @@ siege 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261027.yml` · 2026-10-27T06:20:51Z._
+_数据快照: `data/card/261028.yml` · 2026-10-28T07:03:24Z._
