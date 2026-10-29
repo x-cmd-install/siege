@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,217 · **Forks**: 398 · **Open issues**: 170 · **Contributors**: 30
+- **Stars**: 6,216 · **Forks**: 398 · **Open issues**: 170 · **Contributors**: 30
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 1 | 0 | 1 | 0 | 0 | 11 |
-| last60d | 2026-08-29 | 1 | 0 | 1 | 0 | 0 | 18 |
-| 90d | 2026-07-30 | 2 | 0 | 1 | 0 | 0 | 26 |
-| last180d | 2026-05-01 | 2 | 0 | 1 | 0 | 0 | 36 |
-| 360d | 2025-11-02 | 2 | 2 | 2 | 1 | 0 | 60 |
-| last720d | 2024-11-07 | 2 | 4 | 6 | 3 | 9 | 140 |
+| 30d | 2026-09-29 | 1 | 0 | 0 | 0 | 0 | 11 |
+| last60d | 2026-08-30 | 1 | 0 | 1 | 0 | 0 | 18 |
+| 90d | 2026-07-31 | 2 | 0 | 1 | 0 | 0 | 26 |
+| last180d | 2026-05-02 | 2 | 0 | 1 | 0 | 0 | 36 |
+| 360d | 2025-11-03 | 2 | 2 | 2 | 1 | 0 | 60 |
+| last720d | 2024-11-08 | 2 | 4 | 6 | 3 | 9 | 140 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **105** distros on [repology.org](https://repology.org/project/siege). **1** are ✅ on the latest upstream release, **80** are ⚠️ on an older version.
+Reported by **105** distros on [repology.org](https://repology.org/project/siege). **2** are ✅ on the latest upstream release, **79** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -96,4 +96,4 @@ Install metadata for siege lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T07:03:23Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T07:06:29Z._
