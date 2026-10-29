@@ -1,24 +1,6 @@
 - repo: aix_osp
   srcname: siege
   visiblename: siege
-  version: 3.0.3
-  origversion: 3.0.3-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 3.0.5
-  origversion: 3.0.5-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 3.0.6
-  origversion: 3.0.6-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
   version: 3.0.7
   origversion: 3.0.7-1
   status: legacy
@@ -55,72 +37,6 @@
 - repo: aix_osp
   srcname: siege
   visiblename: siege
-  version: 4.0.0
-  origversion: 4.0.0-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 4.0.1
-  origversion: 4.0.1-1
-  status: outdated
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 4.0.1
-  origversion: 4.0.1-2
-  status: outdated
-- repo: nix_stable_25_05
-  srcname: siege
-  visiblename: siege
-  version: 4.1.7
-  origversion: null
-  status: outdated
-  summary: HTTP load tester
-  maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_25_11
-  srcname: siege
-  visiblename: siege
-  version: 4.1.7
-  origversion: null
-  status: outdated
-  summary: HTTP load tester
-  maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - GPL-2.0-or-later
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.0.7
-  origversion: 4.0.7-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: raspbian_stable
-  subrepo: main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.6
-  origversion: 4.1.6-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
   version: 3.1.2
   origversion: 3.1.2-1
   status: legacy
@@ -139,27 +55,159 @@
 - repo: aix_osp
   srcname: siege
   visiblename: siege
-  version: "2.67"
-  origversion: 2.67-1
+  version: 4.0.0
+  origversion: 4.0.0-1
   status: legacy
 - repo: aix_osp
   srcname: siege
+  visiblename: siege
+  version: 4.0.1
+  origversion: 4.0.1-1
+  status: outdated
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 4.0.1
+  origversion: 4.0.1-2
+  status: outdated
+- repo: gnuguix
+  srcname: siege
+  binname: siege
+  visiblename: siege
+  version: 4.1.7
+  origversion: null
+  status: outdated
+  summary: HTTP/FTP load tester and benchmarking utility
+- repo: homebrew
+  srcname: siege
+  visiblename: siege
+  version: 4.2.2
+  origversion: null
+  status: newest
+  summary: HTTP regression testing and benchmarking utility
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: siege
+  binname: siege
   visiblename: siege
   version: "2.70"
-  origversion: 2.70-1
+  origversion: null
   status: legacy
-- repo: aix_osp
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: siege
+  binname: siege
+  visiblename: siege
+  version: 3.1.4
+  origversion: null
+  status: outdated
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: siege
+  binname: siege
+  visiblename: siege
+  version: 3.1.4
+  origversion: null
+  status: outdated
+- repo: kali_rolling
+  subrepo: main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.7
+  origversion: 4.1.7-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: chromebrew
   srcname: siege
   visiblename: siege
-  version: "2.74"
-  origversion: 2.74-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
+  version: 4.2.0
+  origversion: null
+  status: outdated
+  summary: Siege is an http load testing and benchmarking utility.
+  licenses:
+    - GPL-3
+- repo: aosc
+  srcname: app-network/siege
+  binname: siege
   visiblename: siege
-  version: "2.75"
-  origversion: 2.75-1
-  status: legacy
+  version: 4.0.7
+  origversion: 4.0.7-1
+  status: outdated
+  summary: An HTTP regression testing and benchmarking utility
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - net
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.0.7
+  origversion: 4.0.7-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.0.7
+  origversion: 4.0.7-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: pardus_21
+  subrepo: main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.0.7
+  origversion: 4.0.7-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.6
+  origversion: 4.1.6-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: parrot
+  subrepo: parrot/main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.6
+  origversion: 4.1.6-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
 - repo: aix_osp
   srcname: siege
   visiblename: siege
@@ -189,6 +237,59 @@
   visiblename: siege
   version: 3.0.2
   origversion: 3.0.2-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.3
+  origversion: 3.0.3-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.5
+  origversion: 3.0.5-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.6
+  origversion: 3.0.6-1
+  status: legacy
+- repo: arch
+  subrepo: extra
+  srcname: siege
+  binname: siege
+  visiblename: siege
+  version: 4.2.0
+  origversion: 4.2.0-1
+  status: outdated
+  summary: An http regression testing and benchmarking utility
+  licenses:
+    - GPL-3.0-or-later
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: "2.67"
+  origversion: 2.67-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: "2.70"
+  origversion: 2.70-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: "2.74"
+  origversion: 2.74-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: "2.75"
+  origversion: 2.75-1
   status: legacy
 - repo: alt_p11
   srcname: siege
@@ -222,64 +323,6 @@
     - GPLv2+
   categories:
     - Networking/WWW
-- repo: aosc
-  srcname: app-network/siege
-  binname: siege
-  visiblename: siege
-  version: 4.0.7
-  origversion: 4.0.7-1
-  status: outdated
-  summary: An HTTP regression testing and benchmarking utility
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - net
-- repo: arch
-  subrepo: extra
-  srcname: siege
-  binname: siege
-  visiblename: siege
-  version: 4.2.0
-  origversion: 4.2.0-1
-  status: outdated
-  summary: An http regression testing and benchmarking utility
-  licenses:
-    - GPL-3.0-or-later
-- repo: chromebrew
-  srcname: siege
-  visiblename: siege
-  version: 4.2.0
-  origversion: null
-  status: outdated
-  summary: Siege is an http load testing and benchmarking utility.
-  licenses:
-    - GPL-3
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.0.7
-  origversion: 4.0.7-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.0.7
-  origversion: 4.0.7-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
 - repo: debian_13
   subrepo: trixie/main
   srcname: siege
@@ -393,19 +436,6 @@
     - GPLv2+
   categories:
     - Unspecified
-- repo: raspbian_testing
-  subrepo: main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.7
-  origversion: 4.1.7-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
 - repo: epel_7
   srcname: siege
   visiblename: siege
@@ -599,65 +629,13 @@
     - GPL-3
   categories:
     - app-benchmarks
-- repo: gnuguix
-  srcname: siege
-  binname: siege
-  visiblename: siege
-  version: 4.1.7
-  origversion: null
-  status: outdated
-  summary: HTTP/FTP load tester and benchmarking utility
-- repo: homebrew
-  srcname: siege
-  visiblename: siege
-  version: 4.2.2
-  origversion: null
-  status: newest
-  summary: HTTP regression testing and benchmarking utility
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: siege
-  binname: siege
-  visiblename: siege
-  version: "2.70"
-  origversion: null
-  status: legacy
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: siege
-  binname: siege
-  visiblename: siege
-  version: 3.1.4
-  origversion: null
-  status: outdated
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: siege
-  binname: siege
-  visiblename: siege
-  version: 3.1.4
-  origversion: null
-  status: outdated
-- repo: kali_rolling
-  subrepo: main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.7
-  origversion: 4.1.7-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
 - repo: macports
   srcname: www/siege
   binname: siege
   visiblename: siege
-  version: 4.2.0
+  version: 4.2.2
   origversion: null
-  status: outdated
+  status: newest
   summary: HTTP/HTTPS regression testing and benchmarking utility
   maintainers:
     - nomaintainer@macports.org
@@ -764,6 +742,28 @@
     - 7c6f434c@mail.ru
   licenses:
     - GPL-2.0-or-later
+- repo: nix_stable_25_05
+  srcname: siege
+  visiblename: siege
+  version: 4.1.7
+  origversion: null
+  status: outdated
+  summary: HTTP load tester
+  maintainers:
+    - 7c6f434c@mail.ru
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_11
+  srcname: siege
+  visiblename: siege
+  version: 4.1.7
+  origversion: null
+  status: outdated
+  summary: HTTP load tester
+  maintainers:
+    - 7c6f434c@mail.ru
+  licenses:
+    - GPL-2.0-or-later
 - repo: nix_stable_26_05
   srcname: siege
   visiblename: siege
@@ -860,45 +860,6 @@
   summary: An http regression testing and benchmarking utility
   licenses:
     - GPL-3.0-or-later
-- repo: pardus_21
-  subrepo: main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.0.7
-  origversion: 4.0.7-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: parrot
-  subrepo: parrot/main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.6
-  origversion: 4.1.6-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.6
-  origversion: 4.1.6-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
 - repo: pkgsrc_2026_2
   srcname: www/siege
   binname: siege
@@ -975,6 +936,45 @@
   visiblename: siege
   version: 4.1.6
   origversion: 4.1.6-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.0.7
+  origversion: 4.0.7-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: raspbian_stable
+  subrepo: main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.6
+  origversion: 4.1.6-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: raspbian_testing
+  subrepo: main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.7
+  origversion: 4.1.7-1
   status: outdated
   maintainers:
     - jmaslibre@debian.org
