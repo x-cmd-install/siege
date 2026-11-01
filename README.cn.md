@@ -47,7 +47,7 @@ x install siege
 
 ## 流行度
 
-- **Star**: 6,219 · **Fork**: 398 · **开放 issue**: 170 · **贡献者**: 30
+- **Star**: 6,219 · **Fork**: 397 · **开放 issue**: 170 · **贡献者**: 30
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install siege
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 1 | 0 | 0 | 0 | 0 | 11 |
-| last60d | 2026-09-01 | 1 | 0 | 1 | 0 | 0 | 18 |
-| 90d | 2026-08-02 | 2 | 0 | 1 | 0 | 0 | 26 |
-| last180d | 2026-05-04 | 2 | 0 | 1 | 0 | 0 | 36 |
-| 360d | 2025-11-05 | 2 | 2 | 2 | 1 | 0 | 60 |
-| last720d | 2024-11-10 | 2 | 4 | 6 | 3 | 9 | 140 |
+| 30d | 2026-10-02 | 1 | 0 | 0 | 0 | 0 | 9 |
+| last60d | 2026-09-02 | 1 | 0 | 1 | 0 | 0 | 18 |
+| 90d | 2026-08-03 | 2 | 0 | 1 | 0 | 0 | 26 |
+| last180d | 2026-05-05 | 2 | 0 | 1 | 0 | 0 | 36 |
+| 360d | 2025-11-06 | 2 | 2 | 2 | 1 | 0 | 60 |
+| last720d | 2024-11-11 | 2 | 4 | 6 | 3 | 9 | 140 |
 
 ## Release 资产
 
@@ -72,7 +72,7 @@ x install siege
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/siege) 上共有 **105** 个发行版报告此项目。**3** 个 ✅ 已是最新上游版本，**78** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/siege) 上共有 **105** 个发行版报告此项目。**4** 个 ✅ 已是最新上游版本，**77** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -84,7 +84,7 @@ x install siege
 | Arch | `4.2.0` | ⚠️ outdated |
 | Homebrew | `4.2.2` | ✅ latest |
 | Fedora rawhide | `4.1.7` | ⚠️ outdated |
-| Nix unstable | `4.2.0` | ⚠️ outdated |
+| Nix unstable | `4.2.2` | ✅ latest |
 | openSUSE Tumbleweed | `4.2.0` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -96,4 +96,4 @@ siege 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261031.yml` · 2026-10-31T06:55:49Z._
+_数据快照: `data/card/261101.yml` · 2026-11-01T07:23:01Z._
