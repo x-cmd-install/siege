@@ -1,5 +1,5 @@
-- repo: raspbian_stable
-  subrepo: main
+- repo: parrot
+  subrepo: parrot/main
   srcname: siege
   binnames:
     - siege
@@ -11,79 +11,19 @@
     - jmaslibre@debian.org
   categories:
     - web
-- repo: raspbian_testing
+- repo: pardus_21
   subrepo: main
   srcname: siege
   binnames:
     - siege
   visiblename: siege
-  version: 4.1.7
-  origversion: 4.1.7-1
+  version: 4.0.7
+  origversion: 4.0.7-1
   status: outdated
   maintainers:
     - jmaslibre@debian.org
   categories:
     - web
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 4.0.0
-  origversion: 4.0.0-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 3.0.0
-  origversion: 3.0.0-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 3.0.1
-  origversion: 3.0.1-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 3.0.2
-  origversion: 3.0.2-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 3.0.3
-  origversion: 3.0.3-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 3.0.5
-  origversion: 3.0.5-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 3.0.6
-  origversion: 3.0.6-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 3.0.7
-  origversion: 3.0.7-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 3.0.8
-  origversion: 3.0.8-1
-  status: legacy
-- repo: aix_osp
-  srcname: siege
-  visiblename: siege
-  version: 3.0.9
-  origversion: 3.0.9-1
-  status: legacy
 - repo: aix_osp
   srcname: siege
   visiblename: siege
@@ -123,6 +63,12 @@
 - repo: aix_osp
   srcname: siege
   visiblename: siege
+  version: 4.0.0
+  origversion: 4.0.0-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
   version: 4.0.1
   origversion: 4.0.1-1
   status: outdated
@@ -132,6 +78,112 @@
   version: 4.0.1
   origversion: 4.0.1-2
   status: outdated
+- repo: raspbian_stable
+  subrepo: main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.6
+  origversion: 4.1.6-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: raspbian_testing
+  subrepo: main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.7
+  origversion: 4.1.7-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.6
+  origversion: 4.1.6-1
+  status: outdated
+  maintainers:
+    - jmaslibre@debian.org
+  categories:
+    - web
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.3
+  origversion: 3.0.3-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.5
+  origversion: 3.0.5-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.6
+  origversion: 3.0.6-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.7
+  origversion: 3.0.7-1
+  status: legacy
+- repo: fedora_43
+  subrepo: release
+  srcname: siege
+  binnames:
+    - siege
+  visiblename: siege
+  version: 4.1.7
+  origversion: 4.1.7-4.fc43
+  status: outdated
+  summary: HTTP regression testing and benchmarking utility
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.8
+  origversion: 3.0.8-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.9
+  origversion: 3.0.9-1
+  status: legacy
+- repo: parabola
+  subrepo: extra
+  srcname: siege
+  binname: siege
+  visiblename: siege
+  version: 4.2.0
+  origversion: 4.2.0-1
+  status: outdated
+  summary: An http regression testing and benchmarking utility
+  licenses:
+    - GPL-3.0-or-later
 - repo: aix_osp
   srcname: siege
   visiblename: siege
@@ -167,6 +219,18 @@
   visiblename: siege
   version: "2.78"
   origversion: 2.78-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.0
+  origversion: 3.0.0-1
+  status: legacy
+- repo: aix_osp
+  srcname: siege
+  visiblename: siege
+  version: 3.0.1
+  origversion: 3.0.1-1
   status: legacy
 - repo: alt_p11
   srcname: siege
@@ -508,20 +572,6 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.7
-  origversion: 4.1.7-4.fc43
-  status: outdated
-  summary: HTTP regression testing and benchmarking utility
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
 - repo: fedora_44
   subrepo: release
   srcname: siege
@@ -841,64 +891,14 @@
     - siege-debuginfo
     - siege-debugsource
   visiblename: siege
-  version: 4.2.0
-  origversion: 4.2.0-1.1
-  status: outdated
+  version: 4.2.2
+  origversion: 4.2.2-1.1
+  status: newest
   summary: HTTP Regression Testing/Benchmarking Utility
   licenses:
     - GPL-2.0-or-later
   categories:
     - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: siege
-  binname: siege
-  visiblename: siege
-  version: 4.2.0
-  origversion: 4.2.0-1
-  status: outdated
-  summary: An http regression testing and benchmarking utility
-  licenses:
-    - GPL-3.0-or-later
-- repo: pardus_21
-  subrepo: main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.0.7
-  origversion: 4.0.7-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.6
-  origversion: 4.1.6-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
-- repo: parrot
-  subrepo: parrot/main
-  srcname: siege
-  binnames:
-    - siege
-  visiblename: siege
-  version: 4.1.6
-  origversion: 4.1.6-1
-  status: outdated
-  maintainers:
-    - jmaslibre@debian.org
-  categories:
-    - web
 - repo: pkgsrc_2026_2
   srcname: www/siege
   binname: siege
