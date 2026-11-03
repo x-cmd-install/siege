@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,218 · **Forks**: 397 · **Open issues**: 170 · **Contributors**: 30
+- **Stars**: 6,218 · **Forks**: 397 · **Open issues**: 171 · **Contributors**: 30
 
 ## Totals (cumulative)
 
-- **Releases**: 2 · **Merged PRs**: 38 · **Open PRs**: 32 · **Closed issues**: 55 · **Open issues**: 115 · **Commits**: 751
+- **Releases**: 2 · **Merged PRs**: 38 · **Open PRs**: 32 · **Closed issues**: 55 · **Open issues**: 116 · **Commits**: 751
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 1 | 0 | 0 | 0 | 0 | 9 |
-| last60d | 2026-09-03 | 1 | 0 | 1 | 0 | 0 | 18 |
-| 90d | 2026-08-04 | 2 | 0 | 1 | 0 | 0 | 26 |
-| last180d | 2026-05-06 | 2 | 0 | 1 | 0 | 0 | 36 |
-| 360d | 2025-11-07 | 2 | 2 | 2 | 1 | 0 | 60 |
-| last720d | 2024-11-12 | 2 | 4 | 6 | 2 | 9 | 140 |
+| 30d | 2026-10-04 | 1 | 0 | 0 | 0 | 1 | 9 |
+| last60d | 2026-09-04 | 1 | 0 | 1 | 0 | 1 | 18 |
+| 90d | 2026-08-05 | 2 | 0 | 1 | 0 | 1 | 26 |
+| last180d | 2026-05-07 | 2 | 0 | 1 | 0 | 1 | 36 |
+| 360d | 2025-11-08 | 2 | 2 | 2 | 1 | 1 | 60 |
+| last720d | 2024-11-13 | 2 | 4 | 6 | 2 | 10 | 140 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **105** distros on [repology.org](https://repology.org/project/siege). **5** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
+Reported by **105** distros on [repology.org](https://repology.org/project/siege). **6** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -85,7 +85,7 @@ Reported by **105** distros on [repology.org](https://repology.org/project/siege
 | Homebrew | `4.2.2` | ✅ latest |
 | Fedora rawhide | `4.1.7` | ⚠️ outdated |
 | Nix unstable | `4.2.2` | ✅ latest |
-| openSUSE Tumbleweed | `4.2.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `4.2.2` | ✅ latest |
 
 ## Improve this data
 
@@ -96,4 +96,4 @@ Install metadata for siege lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:35:11Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T08:21:14Z._
