@@ -30,9 +30,9 @@ Overall score: **2.8 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
 - **Token-Permissions** (-1/10) — No tokens found
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,218 · **Forks**: 397 · **Open issues**: 171 · **Contributors**: 30
+- **Stars**: 6,217 · **Forks**: 397 · **Open issues**: 171 · **Contributors**: 30
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 1 | 0 | 0 | 0 | 1 | 9 |
-| last60d | 2026-09-04 | 1 | 0 | 1 | 0 | 1 | 18 |
-| 90d | 2026-08-05 | 2 | 0 | 1 | 0 | 1 | 26 |
-| last180d | 2026-05-07 | 2 | 0 | 1 | 0 | 1 | 36 |
-| 360d | 2025-11-08 | 2 | 2 | 2 | 1 | 1 | 60 |
-| last720d | 2024-11-13 | 2 | 4 | 6 | 2 | 10 | 140 |
+| 30d | 2026-10-05 | 1 | 0 | 0 | 0 | 1 | 9 |
+| last60d | 2026-09-05 | 1 | 0 | 1 | 0 | 1 | 18 |
+| 90d | 2026-08-06 | 2 | 0 | 1 | 0 | 1 | 26 |
+| last180d | 2026-05-08 | 2 | 0 | 1 | 0 | 1 | 36 |
+| 360d | 2025-11-09 | 2 | 2 | 2 | 1 | 1 | 60 |
+| last720d | 2024-11-14 | 2 | 4 | 6 | 2 | 10 | 140 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for siege lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T08:21:14Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:50:44Z._
