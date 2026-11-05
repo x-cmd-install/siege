@@ -14,13 +14,13 @@ x install siege
 
 ## Code insight
 
-Total: **23,104** lines of code across **97** files in the top 5 languages.
+Total: **14,646** lines of code across **95** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 12,308 | 2,279 | 1,807 | 39 |
-| Sh | 8,778 | 2,183 | 1,324 | 6 |
+| C | 12,313 | 2,279 | 1,809 | 39 |
 | CHeader | 1,384 | 1,143 | 346 | 42 |
+| Sh | 315 | 137 | 64 | 4 |
 | Autoconf | 229 | 672 | 123 | 4 |
 | Php | 181 | 0 | 14 | 6 |
 
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `4.2.2` (2026-10-27)
-- **Last commit**: 2026-10-27
+- **Last commit**: 2026-11-04
 - **Assets in release**: 1
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 2 · **Merged PRs**: 38 · **Open PRs**: 32 · **Closed issues**: 55 · **Open issues**: 116 · **Commits**: 751
+- **Releases**: 2 · **Merged PRs**: 38 · **Open PRs**: 32 · **Closed issues**: 55 · **Open issues**: 116 · **Commits**: 754
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 1 | 0 | 0 | 0 | 1 | 9 |
-| last60d | 2026-09-05 | 1 | 0 | 1 | 0 | 1 | 18 |
-| 90d | 2026-08-06 | 2 | 0 | 1 | 0 | 1 | 26 |
-| last180d | 2026-05-08 | 2 | 0 | 1 | 0 | 1 | 36 |
-| 360d | 2025-11-09 | 2 | 2 | 2 | 1 | 1 | 60 |
-| last720d | 2024-11-14 | 2 | 4 | 6 | 2 | 10 | 140 |
+| 30d | 2026-10-06 | 1 | 0 | 0 | 0 | 1 | 12 |
+| last60d | 2026-09-06 | 1 | 0 | 1 | 0 | 1 | 21 |
+| 90d | 2026-08-07 | 2 | 0 | 1 | 0 | 1 | 29 |
+| last180d | 2026-05-09 | 2 | 0 | 1 | 0 | 1 | 39 |
+| 360d | 2025-11-10 | 2 | 2 | 2 | 1 | 1 | 63 |
+| last720d | 2024-11-15 | 2 | 4 | 6 | 2 | 10 | 142 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **105** distros on [repology.org](https://repology.org/project/siege). **6** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
+Reported by **106** distros on [repology.org](https://repology.org/project/siege). **6** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -96,4 +96,4 @@ Install metadata for siege lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:50:44Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T08:16:03Z._
