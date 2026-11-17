@@ -30,8 +30,8 @@ Overall score: **2.8 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (-1/10) — No tokens found
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## Source
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 1 | 0 | 0 | 0 | 1 | 6 |
-| last60d | 2026-09-17 | 1 | 0 | 1 | 0 | 1 | 21 |
-| 90d | 2026-08-18 | 2 | 0 | 1 | 0 | 1 | 21 |
-| last180d | 2026-05-20 | 2 | 0 | 1 | 0 | 1 | 39 |
-| 360d | 2025-11-21 | 2 | 2 | 2 | 1 | 1 | 63 |
-| last720d | 2024-11-26 | 2 | 4 | 6 | 2 | 10 | 142 |
+| 30d | 2026-10-18 | 1 | 0 | 0 | 0 | 1 | 6 |
+| last60d | 2026-09-18 | 1 | 0 | 1 | 0 | 1 | 21 |
+| 90d | 2026-08-19 | 1 | 0 | 1 | 0 | 1 | 21 |
+| last180d | 2026-05-21 | 2 | 0 | 1 | 0 | 1 | 39 |
+| 360d | 2025-11-22 | 2 | 2 | 2 | 1 | 1 | 63 |
+| last720d | 2024-11-27 | 2 | 4 | 6 | 2 | 10 | 142 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **104** distros on [repology.org](https://repology.org/project/siege). **8** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
+Reported by **105** distros on [repology.org](https://repology.org/project/siege). **8** are ✅ on the latest upstream release, **73** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -96,4 +96,4 @@ Install metadata for siege lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:51:38Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T08:37:10Z._
